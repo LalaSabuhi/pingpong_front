@@ -1,0 +1,658 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/module.css">
+
+</head>
+<body>
+
+<div class="header background-1">
+    <nav class="navbar row">
+        <div class="header-more-for-mobile">
+            <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m464.883 64.267h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/><path d="m464.883 208.867h-417.766c-25.98 0-47.117 21.136-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.013-21.137-47.149-47.117-47.149z"/><path d="m464.883 353.467h-417.766c-25.98 0-47.117 21.137-47.117 47.149 0 25.98 21.137 47.117 47.117 47.117h417.766c25.98 0 47.117-21.137 47.117-47.117 0-26.012-21.137-47.149-47.117-47.149z"/></svg>        </div>
+        <div class="nav-left col-8 color-1 relative">
+            <a href="/" class="color-1">Main Page</a>
+            <a href="/" class="color-1">Matches</a>
+            <a href="/" class="color-1">Results</a>
+            <a href="/" class="color-1">Leagues</a>
+            <a href="/" class="color-1">Cups</a>
+            <a href="/" class="color-1">Ranking</a>
+            <a href="/" class="color-1">Gallery</a>
+        </div>
+        <div class="nav-search col-4">
+            <form action="/search?term=">
+                <input type="text" class="navsearchinput tt-input background-3 color-1" name="query" data-topbar-search-url="/search?term="
+                       placeholder="Search..." autocomplete="off" spellcheck="false" dir="auto"
+                       style="position: relative; vertical-align: top;">
+                <button type="submit" class="navsearchbutton background-3 color-1">
+                    Search
+                </button>
+            </form>
+        </div>
+    </nav>
+</div>
+
+<div class="side-navbar">
+    <div class="side-navbar-content normal-shadow">
+        <a href="/" class="color-3">Main Page</a>
+        <a href="/" class="color-3">Matches</a>
+        <a href="/" class="color-3">Results</a>
+        <a href="/" class="color-3">Leagues</a>
+        <a href="/" class="color-3">Cups</a>
+        <a href="/" class="color-3">Ranking</a>
+        <a href="/" class="color-3">Gallery</a>
+    </div>
+</div>
+
+<div class="body row">
+
+    <div class="col-md-2" id="left-side">
+
+        <a href="">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+                <div class="margin-10"></div>
+            </div>
+        </a>
+
+        <div class="player-of-week normal-shadow">
+            <a href="/">
+                <img src="img/anar.png" alt="">
+                <div class="player-gradient-big"></div>
+                <div class="player-of-week-name">
+                    <h5 class="color-5">Anar</h5>
+                    <span>Player of the week</span>
+                </div>
+                <div class="player-of-week-stat">
+                    <h5 class="color-5">25</h5>
+                    <span>Total Points</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="margin-3"></div>
+
+        <div id="side-moving-block">
+            <div class="side-ranking">
+                <a class="divs-header" href="/">Ranking</a>
+                <div class="ranking-box">
+                    <div class="ranking-list background-1 color-3">
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Yusif Aghazade</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Elshan Abbaszade</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Reshad Shixaliyev</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Azer Nasibov</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Ceyhun Abdullayev</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Zahid Babazade</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Anar Aghakishiyev</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Nihat Abbasov</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Rahib Babayev</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <span class="ranking-order-number">.</span>
+                                <img src="img/person.png" alt="">
+                                <span>Nicat Zeynalli</span>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="/">
+                        <div class="complete-ranking color-5 background-5">
+                            Complete Ranking
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="margin-3"></div>
+
+            <div class="side-ranking">
+                <a class="divs-header" href="/">Cups & Leagues</a>
+                <div class="ranking-box">
+                    <div class="ranking-list background-1 color-3">
+                        <a href="/">
+                            <div>
+                                <img src="img/person.png" alt="">
+                                <span>Yusif Aghazade</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <img src="img/person.png" alt="">
+                                <span>Elshan Abbaszade</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <img src="img/person.png" alt="">
+                                <span>Reshad Shixaliyev</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <img src="img/person.png" alt="">
+                                <span>Azer Nasibov</span>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div>
+                                <img src="img/person.png" alt="">
+                                <span>Ceyhun Abdullayev</span>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="margin-3"></div>
+
+            <div class="side-gallery">
+                <a class="divs-header" href="/">Gallery</a>
+                <a href="/">
+                    <div class="side-gallery-pic">
+                        <img src="img/footage.jpg" alt="">
+                        <div class="photo-description">Ping Pong Asia Championships 2019 - Day 2</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="col-md-7" id="center">
+
+        <div class="margin-2"></div>
+
+        <div class="divs-header" href="/">Featured League & Cup</div>
+
+        <a href="/">
+            <div class="active-league-block">
+                <div class="active-league-block-header normal-shadow background-1 row">
+                    <div>
+                        <img src="https://img-cdn.hltv.org/eventlogo/7k60AiYcHhC1rCcJGWWUvx.png?ixlib=java-2.1.0&s=fe4c3fac9c9b160179c609ce005f6a2c" alt="">
+                    </div>
+                    <div class="ellipsis">
+                        BLAST Spring Final coverage hub
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <div class="margin-3"></div>
+
+        <a href="/">
+            <div class="league-img-box normal-shadow">
+                <img src="https://img-cdn.hltv.org/gallerypicture/igfbgybNDhecZyCFgr2-Jh.png?ixlib=java-2.1.0&s=d1202ca9f8f339248943aee952a0becf" alt="">
+            </div>
+        </a>
+
+        <div class="margin-3"></div>
+
+        <div class="divs-header" href="/">Featured Matches</div>
+
+        <div class="matches-box">
+            <a href="/">
+                <div class="match-box normal-shadow background-1 row">
+                    <div class="col-3">Zahid Babazade</div>
+                    <div class="col-1">0-2</div>
+                    <div class="col-3">Cherkez Aslanov</div>
+                    <div class="col-5">Championship Title</div>
+                </div>
+            </a>
+            <div class="margin-3"></div>
+            <a href="/">
+                <div class="match-box normal-shadow background-1 row">
+                    <div class="col-3">Zahid Babazade</div>
+                    <div class="col-1">0-2</div>
+                    <div class="col-3">Cherkez Aslanov</div>
+                    <div class="col-5">Championship Title</div>
+                </div>
+            </a>
+            <div class="margin-3"></div>
+            <a href="/">
+                <div class="match-box normal-shadow background-1 row">
+                    <div class="col-3">Zahid Babazade</div>
+                    <div class="col-1">0-2</div>
+                    <div class="col-3">Cherkez Aslanov</div>
+                    <div class="col-5">Championship Title</div>
+                </div>
+            </a>
+            <div class="margin-3"></div>
+            <a href="/">
+                <div class="match-box normal-shadow background-1 row">
+                    <div class="col-3">Zahid Babazade</div>
+                    <div class="col-1">0-2</div>
+                    <div class="col-3">Cherkez Aslanov</div>
+                    <div class="col-5">Championship Title</div>
+                </div>
+            </a>
+            <div class="margin-3"></div>
+            <a href="/">
+                <div class="match-box normal-shadow background-1 row">
+                    <div class="col-3">Zahid Babazade</div>
+                    <div class="col-1">0-2</div>
+                    <div class="col-3">Cherkez Aslanov</div>
+                    <div class="col-5">Championship Title</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="margin-3"></div>
+
+        <div class="divs-header" href="/">News & Posts</div>
+
+        <div class="posts">
+            <div class="post normal-shadow">
+                <div class="post-header background-1">Video: Michael vs Norbert</div>
+                <div class="post-body background-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </div>
+            </div>
+            <div class="margin-2"></div>
+            <div class="post normal-shadow">
+                <div class="post-header background-1">Video: Michael vs Norbert</div>
+                <div class="post-body background-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </div>
+            </div>
+            <div class="margin-2"></div>
+            <div class="post normal-shadow">
+                <div class="post-header background-1">Video: Michael vs Norbert</div>
+                <div class="post-body background-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </div>
+            </div>
+            <div class="margin-2"></div>
+            <div class="post normal-shadow">
+                <div class="post-header background-1">Video: Michael vs Norbert</div>
+                <div class="post-body background-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </div>
+            </div>
+            <div class="margin-2"></div>
+            <div class="post normal-shadow">
+                <div class="post-header background-1">Video: Michael vs Norbert</div>
+                <div class="post-body background-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </div>
+            </div>
+            <div class="margin-2"></div>
+            <div class="post normal-shadow">
+                <div class="post-header background-1">Video: Michael vs Norbert</div>
+                <div class="post-body background-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </div>
+            </div>
+            <div class="margin-2"></div>
+            <div class="post normal-shadow">
+                <div class="post-header background-1">Video: Michael vs Norbert</div>
+                <div class="post-body background-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                </div>
+            </div>
+            <div class="margin-2"></div>
+        </div>
+
+
+
+    </div>
+
+    <div class="col-md-3" id="right-side">
+
+        <div class="results-right-block">
+            <a class="divs-header" href="/">Results</a>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+            <a href="/">
+                <div class="side-1-result background-1 normal-shadow">
+                    <div class="side-result-league">BLAST Spring Final</div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Yusif Aghazade
+                        </div>
+                        <div class="side-result-point color-green">
+                            3
+                        </div>
+                    </div>
+                    <div class="side-result">
+                        <div class="side-result-player">
+                            Elshan Abbasov
+                        </div>
+                        <div class="side-result-point color-red">
+                            1
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="margin-2"></div>
+        </div>
+
+        <div class="margin-2"></div>
+
+        <div class="next-right-block normal-shadow">
+            <a class="side-div-inn-header background-5 color-5" href="/">Next matches</a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+            <a href="/">
+                <div class="side-next-match background-1 row">
+                    <div class="col-5">Elshan Abbaszade</div>
+                    <div class="col-2">vs</div>
+                    <div class="col-5">Ceyhun Abdullayev</div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="footer background-1">
+    <div class="footer-div font-size-4">
+        Copyright © 2021   |    Created by Anar Aghakishiyev
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
